@@ -7,7 +7,7 @@
       * [汇编语言](#汇编语言)
       * [编译原理（龙虎鲸）](#编译原理龙虎鲸)
       * [C语言](#c语言)
-         * [<a href="./resources/c">C和指针</a>](#c和指针)
+         * [<a href="./resources">C和指针</a>](#c和指针)
          * [<a href="">C标准库</a>](#c标准库)
       * [unix（FreeBSD）](#unixfreebsd)
          * [<a href="">unix环境高级编程</a>](#unix环境高级编程)
@@ -53,7 +53,7 @@
 ## 汇编语言
 ## 编译原理（龙虎鲸）
 ## C语言
-### [C和指针](./resources/c)
+### [C和指针](./resources)
 ### [C标准库]()
 ## unix（FreeBSD）
 ### [unix环境高级编程]()

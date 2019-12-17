@@ -8,7 +8,11 @@ springboot2.2.1 SpringMVC mybatis RabbitMQ redis kafka zookeeper actuator docker
 springboot领域驱动设计与微服务实战，真正理解SpringCloud Netflix组件应用场景
 #### [python_study](https://github.com/GitJavaProgramming/springboot)
 Python3
+#### [Java8特性 新api测试demo](https://github.com/GitJavaProgramming/new-Java)
+Java8 netty源码等
 ****
+#### [netty项目整理-可以投入生产](https://github.com/GitJavaProgramming/nettyProject)
+netty-server监听，防火墙、心跳检测、消息编码解码、业务消息处理器，消息封包拆包、加密等等
 #### [JavaAdvance](https://github.com/GitJavaProgramming/JavaAdvance)
 Java核心知识和高级特性实践，包含反射api/泛型/注解/动态代理、spring IOC模拟、IO/网络编程、爬虫等等测试代码
 #### [mylottery](https://github.com/GitJavaProgramming/mylottery)

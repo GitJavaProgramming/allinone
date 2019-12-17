@@ -17,7 +17,7 @@ _Bool add(DATA_TYPE data) {
     return 1;
 }
 
-int main(void) {
+int main(int argc, ** argv) {
     Array arr = create_array(0);
     _Bool b = add(100);
     printf("array->length = %u\n", array->length);

@@ -57,9 +57,13 @@
 #### [C标准库]()
 ## unix（FreeBSD）
 #### [unix环境高级编程]()
-## 算法分析与设计
+## 算法分析与设计（数学知识要准备充分！）
+#### 算法导论
+#### 算法分析导论
+#### 算法
 ## 高级数据结构抽象（ADT）
 ## 操作系统
+#### 深入理解计算机系统
 ## 计算机网络
 #### [HTTP、TCP/IP协议]()
 #### 路由/交换
@@ -75,7 +79,7 @@
 #### C++ STL
 #### GUI
 #### windows编程
-
+****
 ## Java
 #### [OpenJDK7源码](https://pan.baidu.com/s/1DbSkqtgrlOaXqV65o3KT5w "am8f")  
 #### [Java 8 编程 官方教程]()
@@ -102,3 +106,16 @@
 #### 大数据物联网
 #### 人工智能AI
 #### 5G
+
+## 计算机体系结构
+
+## 中华人民共和国学科分类与代码国家标准
+#### [哲学](https://baike.baidu.com/item/%E5%93%B2%E5%AD%A6/140608#9)
+#### [数学](https://baike.baidu.com/item/%E6%95%B0%E5%AD%A6/107037#1)
+
+# _互联网就这么大 :)_
+我天，无意中发现了我刚毕业那会的博客园博客  
+给个地址记录一下:)  
+[https://www.cnblogs.com/zhangpeng201211/](https://www.cnblogs.com/zhangpeng201211/)  
+
+

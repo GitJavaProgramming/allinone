@@ -61,6 +61,12 @@
 #### [unix网络编程]()
 #### [unix系统编程]()
 #### [unix手册]()
+## linux(centOS、debian)
+#### linux系统编程
+#### [linux shell]()
+#### linux图形界面编程
+#### [linux网络管理]()
+#### linux内核
 ## 算法分析与设计（数学知识要准备充分！）
 #### 算法导论
 #### 算法分析导论
@@ -71,11 +77,6 @@
 ## 计算机网络
 #### [HTTP、TCP/IP协议]()
 #### 路由/交换
-## linux(centOS、debian)
-#### linux内核
-#### linux系统编程
-#### [linux网络管理]()
-#### [linux shell]()
 ## 数据库系统实现
 
 ## Cplusplus

@@ -86,8 +86,9 @@
 ****
 ## Java
 #### [OpenJDK7源码](https://pan.baidu.com/s/1DbSkqtgrlOaXqV65o3KT5w "am8f")  
-#### [Java 8 编程 官方教程]()
-#### [Java网络/并发编程]()
+#### [Java核心技术]()
+##### [Java 8 函数式编程 官方教程]()
+##### [Java网络/并发编程]()
 #### [J2EE规范]()
 #### Android
 
@@ -98,6 +99,7 @@
 #### 项目管理
 
 ## WEB
+#### HTTP
 #### html5/css3 bootstrap
 #### [JavaScript/jQuery源码]()
 #### [xml]()

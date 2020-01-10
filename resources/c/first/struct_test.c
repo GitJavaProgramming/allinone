@@ -26,3 +26,7 @@ void test_struct_method() {
     printf("array->length = %d\n", array->data);
     printf("array->length = %u\n", array->length);
 }
+
+void destroy(Array *array) {
+    free(array);
+}

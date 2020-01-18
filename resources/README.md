@@ -18,6 +18,3 @@ Java swing编程 menu、checkbox、list、table、tab、进度条等待组件
 Java核心知识和高级特性实践，包含反射api/泛型/注解/动态代理、spring IOC模拟、IO/网络编程、爬虫等等测试代码
 #### [entering](https://github.com/GitJavaProgramming/entering)
 JavaWeb实践--jsp、jstl、el等 SpringMVC hibernate封装 jquery前端
-#### [彩票系统](https://github.com/GitJavaProgramming/ROOT)
-#### [python_study](https://github.com/GitJavaProgramming/springboot)
-Python3

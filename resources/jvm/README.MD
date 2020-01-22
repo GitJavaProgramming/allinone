@@ -25,7 +25,7 @@
     └─javap  Java虚拟机汇编（非正式的虚拟机汇编语言） -v（--verbose） -c(指反汇编 convert)等选项 查看虚拟机字节码详细指令
 目录给出ClassFile类结构---ClassFile.png   
 关于Java编译器：Java虚拟机规范 javase 8版 ch03 Java虚拟机编译器   
-javac编译成的.class文件(字节数组，虚拟机字节码指令集)可以构造成ClassFile对象   
+javac编译成的.class文件(字节数组)可以构造成ClassFile对象   
 JIT：Just-In-Time,在class文件中代码被java虚拟机加载后，（虚拟机指令集转换）生成平台相关的特定（CPU）指令集。   
 
 ## 加载、链接与初始化
@@ -34,6 +34,7 @@ Java虚拟机启动是通过引导类加载器创建一个初始类来完成的�
 初始化它并调用它的public static void main(String[] args) {}。之后的整个执行过程都是由此方法开始。  
 应用程序允许用户自定义加载器来扩展Java虚拟机功能，以支持动态创建和加载类。  
 
+编译语言 预处理-编译-汇编-链接 最后形成可执行文件
 
 ## 参考资料
 * Java虚拟机规范 JavaSE 8 版  

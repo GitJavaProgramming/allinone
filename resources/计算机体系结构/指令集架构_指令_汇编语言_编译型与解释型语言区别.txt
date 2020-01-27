@@ -1,5 +1,8 @@
 指令集架、指令与汇编语言
 
+intel 64与IA32架构软件开发手册  https://software.intel.com/en-us/articles/intel-sdm
+四卷合集 第二卷机器指令
+
 指令集架构简称指令集，ISA，CPU的执行单元和解码logic基本上由指令集决定。软件硬件之间的一个
 接口，程序员根据CPU的指令集能编写各种各样的编译器，用高级语言编写程序。
 指令集

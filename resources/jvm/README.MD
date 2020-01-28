@@ -114,6 +114,8 @@ public static void exit(int status) {
 ### 编译期与运行时优化
 
 ## 参考资料
+* [OpenJDK7 hotspot源码](https://github.com/GitJavaProgramming/openjdk7-src)
+* [OpenJDK7 javac源码](https://github.com/GitJavaProgramming/javac)
 * Java虚拟机规范 JavaSE 8 版  
 * 深入理解Java虚拟机 JVM高级特性与最佳实践 第二版  
 * HotSpot实战  

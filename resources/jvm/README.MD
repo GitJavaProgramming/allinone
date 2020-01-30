@@ -111,7 +111,7 @@ public static void exit(int status) {
 Java虚拟机提供两种类加载器：Java虚拟机提供的引导类加载器和用户自定义的类加载器。每个用户自定义的类加载器都应该是抽象类  
 ClassLoader的某个子类的实例  
 虚拟机规范提供的参考   
-https://dl.acm.org/doi/10.1145/286942.286945  
+http://blog.itpub.net/374079/viewspace-129971/ 
 
 
 ## hotspot

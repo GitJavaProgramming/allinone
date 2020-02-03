@@ -171,6 +171,24 @@
 给个地址记录一下:)  
 [https://www.cnblogs.com/zhangpeng201211/](https://www.cnblogs.com/zhangpeng201211/)  
 
+# 关于全栈工程师
+    看到一篇关于全栈的描述
+    https://www.raychase.net/wp-content/uploads/2019/09/%E5%9B%BE%E8%B0%B1-%E6%8E%A8%E6%96%87%E4%B8%AD.jpeg
+    这里地址乱码是因为url中的汉字被文件编码（这里文件编码是utf-8）编码了
+    参考java.net.URLEncode、URLDecode
+    我也来说说我认为的全栈
+##从底层到上层
+    计算机硬件->微机原理->汇编->C语言->操作系统->软件工程
+##从前端到后端
+    BS/CS
+    web前端 HTML/CSS/JS PHP JSP
+    后端 MVC 基础框架
+##从语言到架构
+    编译原理、形式语言-->面向对象与设计模式
+##历史演进
+    硬件、软件、语言发展、规范制定
+##计算机内功（操作系统,网络,编译原理,图形学,设计模式...）
+
 # 参考资料
 ##### 计算机体系结构
 ##### 汇编语言

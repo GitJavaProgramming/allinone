@@ -136,5 +136,6 @@ http://blog.itpub.net/374079/viewspace-129971/
 * Java虚拟机规范 JavaSE 8 版  
 * 深入理解Java虚拟机 JVM高级特性与最佳实践 第二版  
 * HotSpot实战  
-
+* https://blog.csdn.net/qq_31865983/category_9216603_2.html
+* https://blog.csdn.net/renfufei/article/details/54885190
 

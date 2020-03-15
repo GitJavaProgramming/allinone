@@ -1,0 +1,24 @@
+# linux内核
+## 准备知识
+    计算机硬件 计算机体系结构 汇编语言 C语言 操作系统原理 计算机网络
+## 选择阅读版本
+    官网：https://www.kernel.org/
+    下载较快ftp服务器url：http://ftp.sjtu.edu.cn/sites/ftp.kernel.org/pub/linux/kernel/
+    选择一个stable或者longterm版本
+## 准备阅读工具
+    在windows下阅读工具：source insight 4.0 破解版
+    给个网址参考：https://blog.csdn.net/hzw2017/article/details/82085670
+    百度云链接：https://pan.baidu.com/s/18rr6-ZTyRdlZjNGswe5rIA  提取码：xi7l  内核5.4.25(longterm版)
+    FAQ: source insight基本使用？？
+## 科普：内核版本与发行版
+    linux内核只有一个正统来源，那就是linus的开发团队。内核只提供操作系统的基本功能和特性，如内存管理，进程调度，文件管理等等。
+        查看内核版本可使用。uname -a 或者cat /proc/version
+    发行版本：在内核的基础上，开发不同应用程序，组成的一个完整的操作系统。发行版由厂商更新，可以升级内核。
+        查看发行版本可使用 cat  /etc/issue
+    FAQ. 
+         linux的一点历史？？
+         linux各个版本的内核支持的特性？？
+         linus的团队？
+         linux OS发行商？  
+         了解如何编译内核、添加系统调用、制作自己的linux操作系统？？
+

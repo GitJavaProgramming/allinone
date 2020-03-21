@@ -5,12 +5,12 @@
   * [计算机体系结构](computer_science/计算机体系结构.MD)
   * [计算理论与形式语言](computer_science/计算理论、形式语言与复杂性.MD)
   * [操作系统](computer_science/操作系统.MD)
-  * [算法分析与设计（数学知识要准备充分！）]()
-  * [数据库系统原理与实现]()
-  * [计算机图形学]()
-  * [WEB应用程序]()
-  * [软件工程、设计模式、系统架构]()
-  * [计算机网络与安全技术]()
+  * [算法分析与设计（数学知识要准备充分！）](computer_science/算法与数据结构.MD)
+  * [数据库系统原理与实现](computer_science/数据库.MD)
+  * [计算机图形学](computer_science/计算机图形学.MD)
+  * [WEB应用程序](computer_science/WEB应用程序.MD)
+  * [软件开发方法论与实践](computer_science/软件工程.MD)
+  * [计算机网络与安全技术](computer_science/计算机网络与安全技术.MD)
   * [前沿技术](computer_science/前沿技术.MD)
 # 如何精通一门编程语言
 ## I. 形式语言的定式：词法、语法
@@ -66,7 +66,7 @@
     参考资料：
         规范汉字 https://zh.wikipedia.org/zh-cn/%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97
         说文解字（清代陈昌治刻本、清代段玉裁【說文解字注】）
-        中国教育部 http://www.moe.gov.cn/
+        象形字典 http://www.vividict.com/Public/index/page/index/index.html
         教育部-语信司-通用规范汉字表 http://www.moe.gov.cn/s78/A19/yxs_left/moe_810/s230/201306/t20130601_186002.html
         词典网 https://www.cidianwang.com/
         语言文字网 http://www.yywzw.com/jt/sj/sj-jt08.htm

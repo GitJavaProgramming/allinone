@@ -5,12 +5,11 @@
   * [计算机体系结构](computer_science/计算机体系结构.MD)
   * [计算理论与形式语言](computer_science/计算理论、形式语言与复杂性.MD)
   * [操作系统](computer_science/操作系统.MD)
-  * [算法分析与设计（数学知识要准备充分！）](computer_science/算法与数据结构.MD)
-  * [数据库系统原理与实现](computer_science/数据库.MD)
-  * [计算机图形学](computer_science/计算机图形学.MD)
-  * [WEB应用程序](computer_science/WEB应用程序.MD)
-  * [软件开发方法论与实践](computer_science/软件工程.MD)
   * [计算机网络与安全技术](computer_science/计算机网络与安全技术.MD)
+  * [软件开发方法论与实践](computer_science/软件工程.MD)
+      * [数据库系统原理与实现](computer_science/数据库.MD)
+      * [计算机图形学](computer_science/计算机图形学.MD)
+      * [WEB应用程序](computer_science/WEB应用程序.MD)
   * [前沿技术](computer_science/前沿技术.MD)
 # 如何精通一门编程语言
 ## I. 形式语言的定式：词法、语法

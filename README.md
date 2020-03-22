@@ -1,6 +1,6 @@
 # [中华人民共和国学科分类与代码国家标准](#中华人民共和国学科分类与代码国家标准)
 - [<a href="https://baike.baidu.com/item/数学/107037#1" rel="nofollow">数学</a>](#数学)
-- [<a href="https://baike.baidu.com/item/哲学/140608#9" rel="nofollow">哲学</a>](#哲学)
+- [哲学](哲学/哲学总览.MD)
 # 计算机科学
   * [计算机体系结构](computer_science/计算机体系结构.MD)
   * [计算理论与形式语言](computer_science/计算理论、形式语言与复杂性.MD)
@@ -63,11 +63,12 @@
         是：【卷二】【是部】是 直也。从日正。凡是之屬皆从是。𣆞，籒文是从古文正。承旨切
         
     文/字由认识世界而来  每个字的篆书演变为隶书再到现在的楷书，行书等 文字已经从字有意到字仅有势（现代汉语是简体形式汉语）
+    现在汉语是一个词代表一样事物 古汉语是一个字代表一个事物
         
     参考资料：
         规范汉字 https://zh.wikipedia.org/zh-cn/%E8%A7%84%E8%8C%83%E6%B1%89%E5%AD%97
         说文解字（清代陈昌治刻本、清代段玉裁【說文解字注】）
-        象形字典 http://www.vividict.com/Public/index/page/index/index.html
+        字源网 http://www.fantiz5.com/ziyuan/
         教育部-语信司-通用规范汉字表 http://www.moe.gov.cn/s78/A19/yxs_left/moe_810/s230/201306/t20130601_186002.html
         词典网 https://www.cidianwang.com/
         语言文字网 http://www.yywzw.com/jt/sj/sj-jt08.htm

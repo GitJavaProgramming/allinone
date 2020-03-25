@@ -1,5 +1,5 @@
 # mysql在没有认真研究源码之前都是浮云
-    MySql是一个关系数据库系统,用C语言写成,本质是一个命令行终端(分析字符串并管理数据)程序
+    MySql是一个关系数据库系统,用C++语言写成,本质是一个命令行终端(分析字符串并管理数据)程序
     
     数据模型：关系模型
         数据模型用于抽象,表示和处理现实世界中的数据和信息.
@@ -43,6 +43,12 @@
         聚集索引通过表的主键作为键值来构造B+树 聚集索引的非叶子节点保存<键值, 地址>对 地址为指向下一层的指针 InnoDB存储引擎
         通过页在表空间中的偏移量来表示
         辅助索引又称二级索引 它的叶子结点保存的是<键值, 主键键值>
+## 源码分析
+    源码下载 https://github.com/mysql/mysql-server
+    InnoDB存储引擎目录： ~/storage/innobase
+        page: 页的实现,研究InnoDB文件结构
+        trx: 事务的实现
+    sql解析
 
 # 参考资料
 * 数据库系统概念 第6版 
@@ -50,21 +56,6 @@
 * [2] https://zh.wikipedia.org/wiki/表空间
 * http://mysql.taobao.org/monthly/2019/10/01/
 * https://zhuanlan.zhihu.com/p/35811482
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-    
-    
-
+* https://segmentfault.com/a/1190000008545713
+* http://www.searchdoc.cn/rdbms/mysql/dev.mysql.com/doc/refman/5.7/en/innodb-storage-engine.com.coder114.cn.html
+* https://blog.csdn.net/ajian005/article/details/8482649

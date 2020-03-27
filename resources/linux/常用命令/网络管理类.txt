@@ -1,0 +1,47 @@
+Linux帮助 man xx
+https://man.linuxde.net/
+Ping -c 3 -i 0.5
+Ifconfig ens33
+Netstat -antup
+traceroute
+firewalld
+
+route命令
+route add|del [-net|-host] target netmask netmask gw gateway
+各参数含义：
+add|del  增加或删除一个路由条目
+-net|-host  路由条目的目的地址是一个子网或一台主机
+target  目标子网的子网号或目标主机的ip地址
+netmask  目标子网或主机的子网掩码，当目标为主机时，子网掩码长度应为32位
+gw  用于指定下一跳地址或下一跳设备。将linux作为一台路由器使用时才会使用下一跳设备
+
+
+路由表各字段含义
+Destination	目标网络号或目标主机IP，default表示这是一条默认路由
+Gateway	网关地址即吓一跳地址，0.0.0.0或*表示主机与该子网直接相联，无须吓一跳地址（直联路由）
+Genmask	子网对应的子网掩码
+Flags	U — 路由是活动的
+	H — 目标是一个主机
+	G — 路由指向网关
+	R — 恢复动态路由产生的表项
+	D — 由路由的后台程序动态地安装
+	M — 由路由的后台程序修改
+	! — 拒绝路由
+Metric	路由条目代价值，数值越高代价越大，此值一般在有多条到达目标网络的路由时才起作用
+Ref	路由条目被引用次数
+Use	右路条目被路由软件查找的次数
+Iface	到达目标网络使用的本地接口
+
+route实践
+一个实用的路由器最起码应该包括DHCP、数据包转发、NAT等。
+DHCP用来为子网中的计算机分配IP地址、网关、DNS等信息。
+数据转发是路由器的核心功能，用来将数据包准确的转发到相应的子网。
+NAT用来做地址转换，将子网发往外部网络的数据包地址做转换。
+
+[root@localhost /]# route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.0.1     0.0.0.0         UG    0      0        0 ens33
+169.254.0.0     0.0.0.0         255.255.0.0     U     1002   0        0 ens33
+172.17.0.0      0.0.0.0         255.255.0.0     U     0      0        0 docker0
+192.168.0.0     0.0.0.0         255.255.255.0   U     0      0        0 ens33

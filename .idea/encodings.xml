@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="Encoding">
-    <file url="file://$PROJECT_DIR$/resources/linux/常用命令/grep.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/resources/linux/常用命令/vi操作键.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/resources/linux/常用命令/文件与目录操作.txt" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/resources/linux/常用命令/用户、组与权限.txt" charset="GBK" />
-  </component>
-</project>

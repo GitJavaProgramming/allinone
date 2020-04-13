@@ -1,0 +1,85 @@
+awk用于文本处理
+awk认为文件都是结构化的，即由单词和各种空白字符组成，空白字符包括空格、Tab，以及连续的空格和Tab等。每个非空白的部分叫“域”
+从左到右依次是第一个域、第二个域等等。分别用$1、$2...表示,$0表示全部域。
+
+awk调用方式：
+    awk [-F 域分隔符] 'awk程序段' 输入文件
+    awk -f awk脚本文件 输入文件
+1. 一个awk表达式可由数值、字符常量、变量、操作符、函数和正则表达式自由组合而成。如最常用的条件表达式
+2. awk定义了很多系统变量用于设置环境信息，它们可分为两种：一种用于改变awk的默认值，如域分隔符；第二种用于定义系统值，在处理
+文本时可以读取这些系统值，如记录中的域数量、当前记录数、当前文件名等，awk动态改变系统变量的值。常用变量如下：
+    ARGC               命令行参数个数
+    ARGV               命令行参数排列
+    ENVIRON            支持队列中系统环境变量的使用
+    FILENAME           awk浏览的文件名
+    FNR                浏览文件的记录数
+    FS                 设置输入域分隔符，等价于命令行 -F选项
+    NF                 浏览记录的域的个数
+    NR                 已读的记录数
+    OFS                输出域分隔符
+    ORS                输出记录分隔符
+    RS                 控制记录分隔符
+3. 格式化输出
+awk一大主要功能就是产生报表，报表按预定的格式输出，awk借鉴C语言语法定义print语句。printf的基本格式如下：
+    printf '{格式控制符, 参数}'
+printf的格式符参考C标准如：%s字符串 %o八进制
+4. 内置字符串函数
+5. 语句和C语言一样
+    顺序 控制 循环
+6. 数组
+
+环境：虚拟机CentOS7 minimal
+准备数据：awk.txt 各个域用空格分割
+pp1 male 30 001
+ww1 female 26 002
+hh male 31 003
+yy female 29 004 shanghai
+1. 使用-F指定分割符
+    [root@localhost home]# awk -F. '{print $1, $2}' awk.txt
+2. 内部变量NF
+    [root@localhost home]# awk '{print NF}' awk.txt
+    4
+    4
+    4
+    5
+    [root@localhost home]# awk -F. '{print NF}' awk.txt
+    1
+    1
+    1
+    1
+3. 统计/etc/passwd:文件名，每行的行号，每行的列数，对应的完整行内容:
+    [root@localhost home]# awk  -F ':'  '{print "文件名:" FILENAME ",行号:" NR ",列:" NF ",内容:"$0}' /etc/passwd
+4. 传入外部变量
+    [root@localhost home]# var1="aaa"
+    [root@localhost home]# var2="bbb"
+    [root@localhost home]# echo | awk '{print v1, v2}' v1=$var1 v2=$var2
+    aaa bbb
+
+
+参考资料
+Linux Shell编程从入门到精通
+https://man.linuxde.net/awk
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

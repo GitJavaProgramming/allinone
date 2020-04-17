@@ -18,6 +18,10 @@ Java swing编程 menu、checkbox、list、table、tab、进度条等组件
 #### [Java核心知识](https://github.com/GitJavaProgramming/JavaAdvance)
 Java核心知识和高级特性实践，包含反射api/泛型/注解/动态代理、spring IOC模拟、IO/网络编程、爬虫等等测试代码
 #### [JavaBook](https://github.com/GitJavaProgramming/JavaBook)
+#### [all](https://github.com/GitJavaProgramming/all)
+各种框架源码核心原理解读，使用Java实现
+#### [bigData](https://github.com/GitJavaProgramming/bigdata)
+大数据--分布式存储和计算
 # spring类
 #### [springboot整合案例](https://github.com/GitJavaProgramming/springboot_mybatis)
 springboot2.2.1 SpringMVC mybatis RabbitMQ redis kafka zookeeper actuator docker容器管理

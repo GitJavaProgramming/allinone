@@ -45,10 +45,49 @@
         辅助索引又称二级索引 它的叶子结点保存的是<键值, 主键键值>
         
     3. 事务隔离
-        读未提交--没提交也可以读
-        不可重复读（读提交）--有提交的就可以读
-        可重复读--单个事务内读一致
-        序列化--串行化 锁表
+        读未提交--没提交也可以读 read uncommitted
+        不可重复读（读提交）--有提交的就可以读  read committed
+        可重复读--单个事务内读一致  repeatable read
+        序列化--串行化 锁表  serializable
+    
+        隔离级别：   
+            select @@global.tx_isolation; select @@tx_isolation;
+            set [global|session] transaction isolation level Read uncommitted|Read committed|Repeatable|Serializable;
+        自动提交：
+            设置会话：select @@autocommit; set [global|session] autocommit=0;
+        显示事务：start transaction
+        
+        本机测试 Server version: 5.7.17 MySQL Community Server (GPL)
+        不论是否设置自动提交都是自动提交，在配置文件my. 
+            [mysqld]
+            autocommit=0
+         
+         mysql> desc account;
+         +---------+---------+------+-----+---------+-------+
+         | Field   | Type    | Null | Key | Default | Extra |
+         +---------+---------+------+-----+---------+-------+
+         | account | float   | YES  |     | NULL    |       |
+         | id      | int(11) | NO   | PRI | NULL    |       |
+         +---------+---------+------+-----+---------+-------+
+            
+         开启两个会话
+         select @@global.tx_isolation;
+         select @@tx_isolation;
+         set [global|session] transaction isolation level Read uncommitted|Read committed|Repeatable|Serializable;
+         -----------------------------------------------
+         start transaction;
+         select * from account;
+         update account set account = account + 1;
+         select * from account;
+         rollback;
+         commit;
+         
+         本机测试并没有得到想要的结果！！！
+         例如Read uncommitted级别，事务1中更新数据，不提交，在事务2中不能读到更新后的数据。
+         
+        参考 
+        https://zhuanlan.zhihu.com/p/57302592
+        https://blog.csdn.net/rwangnqian/article/details/80087381
 ## 源码分析
     源码下载 https://github.com/mysql/mysql-server
     InnoDB存储引擎目录： ~/storage/innobase
